@@ -1,2 +1,7 @@
 create a a git repo and clone the same in local.
+create code anf add code to it. it will save a csv file under data folder
+do git add,commit push before initializing dvc.
+then dvc init 
+mkdir named S3 in local  and let dvc know s3 as remote dir
+cmd for set remote is :- 'dvc remote add -d myremote S3'
 
