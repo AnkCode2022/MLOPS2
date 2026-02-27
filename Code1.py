@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
-os.chdir("MLOPS2") # chaning dir to CWD
+# os.chdir("MLOPS2") # chaning dir to CWD
 def create_dataframe():
     # create a dict and convert that into dataframe.
     data={
@@ -56,7 +56,7 @@ if __name__=="__main__":
     df=create_dataframe()
 
     save_dataframe(df)
-    k=3
+    k=4
     processed_df=process_data(k)
 
     print(f"data shape:{df.shape}")
